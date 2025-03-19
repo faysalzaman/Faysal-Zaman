@@ -37,21 +37,57 @@ A warehouse tracking app improving inventory control for Nartec.
 **Picker App**: Manage customer requests efficiently.  
 🔗 [Download Picker App](https://play.google.com/store/apps/details?id=com.nartec.solitaire_picker)  
 
+### 🏗 **FATS System (Fixed Asset Tracking System)**
+A tracking system for managing company assets efficiently.  
+🔗 [Play Store Link](https://play.google.com/store/apps/details?id=com.nartec.fats_system)  
+
 ### 🌐 **CyberNexus (React.js Web App)**
-My first web project using **React, Vite, and Tailwind** for a drop-shipping business.  
+A React-based web app for a drop-shipping business.  
 🔗 [Live Site](https://www.cybernexusllc.us/)  
+
+### 📖 **20,000+ Islamic Names (Urdu Names App)**
+A vast collection of Islamic names with meanings in English & Urdu.  
+🔗 [Play Store Link](https://play.google.com/store/apps/details?id=com.namesapp.islamic_names_dictionary)  
+
+### 📖 **20,000+ Boys and Girls Names (Arabic Names App)**
+A similar Islamic names app for Arabic speakers.  
+🔗 [Play Store Link](https://play.google.com/store/apps/details?id=com.sairatec.arabic_names)  
+
+### 🏋 **Motions Academy (Rehabilitation & Fitness App)**
+A physiotherapy app with video exercises to help users recover from injuries.  
+🔗 [App Store Link](https://apps.apple.com/us/app/motions-academy/id6630384351?platform=iphone)  
+
+### 🍽️ **Food App**
+A multi-category food ordering app with Node.js backend and Flutter frontend.  
+
+### 🔍 **Just Search 8 (B2B Marketplace)**
+A global B2B platform similar to Alibaba for suppliers and buyers.  
 
 ---
 
 ## 🚀 Skills & Expertise  
 
-- **Mobile App Development:** Flutter, Dart, Firebase, API Integration  
-- **State Management:** BLoC, Provider  
-- **UI/UX:** Figma to Flutter, Pixel-perfect design, Animations  
-- **Backend & Databases:** Firebase Firestore, Local Storage, RevenueCat  
-- **Hardware Integration:** NFC, QR Code Scanning, Google Maps  
-- **Version Control:** Git, GitHub, Bitbucket  
-- **Web Development:** React.js, Vite, Tailwind, HTML, CSS, JavaScript  
+### **Mobile App Development:**  
+- Flutter (Dart)  
+- Firebase (Firestore, Push Notifications)  
+- API Integration & Backend Connectivity  
+- Bloc & Provider (State Management)  
+- Local Features: Camera, Bluetooth, NFC, QR Code  
+
+### **Web Development:**  
+- React.js, Vite, Tailwind, Bootstrap, JavaScript, HTML, CSS, JQuery  
+
+### **Advanced Integrations & Tools:**  
+- Google Maps API  
+- RevenueCat (Subscription Management)  
+- AdMob (Monetization)  
+- GitHub, Bitbucket (Version Control)  
+- Figma to Flutter (Pixel-Perfect UI/UX Design)  
+
+### **Project Management & Collaboration:**  
+- Agile Development & Team Coordination  
+- App Publishing (Google Play Store & Apple App Store)  
+- Task Delegation & Deadline Management  
 
 ---
 
