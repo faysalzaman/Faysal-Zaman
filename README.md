@@ -1,4 +1,4 @@
-# 👨‍💻 Developer Portfolio
+# 👨‍💻 Faysal Zaman Portfolio
 
 <div align="center">
 
