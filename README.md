@@ -1,400 +1,359 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Showcase</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+# 👨‍💻 Developer Portfolio
 
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: #fff;
-            line-height: 1.6;
-            overflow-x: hidden;
-        }
+<div align="center">
 
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 40px 20px;
-        }
+![Profile Views](https://komarev.com/ghpvc/?username=yourusername&color=blueviolet&style=flat-square)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/yourprofile)
+[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github)](https://github.com/yourusername)
 
-        .header {
-            text-align: center;
-            margin-bottom: 60px;
-            animation: fadeInDown 1s ease;
-        }
+**Crafting Digital Experiences with Passion & Precision**
 
-        .header h1 {
-            font-size: 3em;
-            margin-bottom: 10px;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-        }
+</div>
 
-        .header p {
-            font-size: 1.2em;
-            opacity: 0.9;
-        }
+---
 
-        .projects-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-            gap: 30px;
-            margin-bottom: 60px;
-        }
+## 🚀 About Me
 
-        .project-card {
-            background: rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(10px);
-            border-radius: 20px;
-            padding: 30px;
-            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-            border: 1px solid rgba(255, 255, 255, 0.2);
-            position: relative;
-            overflow: hidden;
-            animation: fadeInUp 0.8s ease forwards;
-            opacity: 0;
-        }
+I'm a passionate **Full-Stack Mobile & Web Developer** specializing in creating innovative, user-centric applications. With expertise in Flutter, React.js, Node.js, and modern development practices, I transform ideas into impactful digital solutions.
 
-        .project-card:nth-child(1) { animation-delay: 0.1s; }
-        .project-card:nth-child(2) { animation-delay: 0.2s; }
-        .project-card:nth-child(3) { animation-delay: 0.3s; }
-        .project-card:nth-child(4) { animation-delay: 0.4s; }
-        .project-card:nth-child(5) { animation-delay: 0.5s; }
-        .project-card:nth-child(6) { animation-delay: 0.6s; }
-        .project-card:nth-child(7) { animation-delay: 0.7s; }
-        .project-card:nth-child(8) { animation-delay: 0.8s; }
+- 🔭 Currently working on **B2B Marketplace** and **Sports Fan Engagement Platform**
+- 🌱 Exploring **Advanced Flutter Animations** and **NFC Technology Integration**
+- 💡 Love building apps that make a difference in people's lives
+- 🎯 Focus on **clean code**, **pixel-perfect UI**, and **seamless UX**
 
-        .project-card::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: -100%;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
-            transition: left 0.5s;
-        }
+---
 
-        .project-card:hover::before {
-            left: 100%;
-        }
+## 📱 Featured Projects
 
-        .project-card:hover {
-            transform: translateY(-10px) scale(1.02);
-            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
-            border-color: rgba(255, 255, 255, 0.4);
-        }
+### ⏰ [BEC Arabia - Time Management App](https://play.google.com/store/apps/details?id=com.nartec.bec_app)
+**Construction Time Management Solution**
+- Led end-to-end development for BEC Arabia (UAE & KSA)
+- Streamlined project workflows and resource allocation
+- Enhanced productivity for construction teams
+- Managed cross-functional team for successful launch
+- **Tech Stack:** Flutter, Firebase, BLoC Pattern
+- **Impact:** Improved project execution efficiency
 
-        .project-icon {
-            font-size: 3em;
-            margin-bottom: 15px;
-            display: inline-block;
-            animation: bounce 2s infinite;
-        }
+---
 
-        .project-card h3 {
-            font-size: 1.5em;
-            margin-bottom: 15px;
-            color: #fff;
-        }
+### 🏋 [Motions Academy](https://apps.apple.com/us/app/motions-academy/id6630384351?platform=iphone)
+**Rehabilitation & Fitness App**
+- Professional physiotherapy video exercises
+- Targeted programs for specific body parts (back, shoulder, knee)
+- Weekly updated routines by experienced physiotherapists
+- Progress tracking and pain reduction monitoring
+- **Tech Stack:** Flutter, Video Player, Firebase
+- **Platform:** iOS App Store
 
-        .project-card p {
-            margin-bottom: 20px;
-            opacity: 0.9;
-            line-height: 1.6;
-        }
+---
 
-        .project-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            padding: 12px 24px;
-            background: rgba(255, 255, 255, 0.2);
-            border: 2px solid rgba(255, 255, 255, 0.3);
-            border-radius: 50px;
-            color: #fff;
-            text-decoration: none;
-            transition: all 0.3s ease;
-            font-weight: 600;
-        }
+### 🎯 [Vupop - Sports Fan Engagement](https://apps.apple.com/pk/app/vupop/id6747295116)
+**Revolutionary Fan Platform**
+- Capture and share live sports memories
+- Earn rewards for content creation
+- Real-time connection with fans and teams
+- Community-driven engagement features
+- **Tech Stack:** Flutter, Firebase, Real-time Database
+- **Platform:** iOS App Store
 
-        .project-link:hover {
-            background: rgba(255, 255, 255, 0.3);
-            border-color: #fff;
-            transform: scale(1.05);
-        }
+---
 
-        .skills-section {
-            background: rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(10px);
-            border-radius: 20px;
-            padding: 40px;
-            border: 1px solid rgba(255, 255, 255, 0.2);
-            animation: fadeInUp 1s ease;
-        }
+### 🛍️ Solitaire Mall Apps (Saudi Arabia)
+**Revolutionizing Shopping Assistance**
 
-        .skills-section h2 {
-            font-size: 2.5em;
-            margin-bottom: 30px;
-            text-align: center;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-        }
+#### [Customer App](https://play.google.com/store/apps/details?id=com.nartec.solitaire)
+- Request dedicated shopping assistants
+- NFC card & fingerprint authentication
+- NFC & QR code scanning for shop details
+- Real-time time tracking
 
-        .skills-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 25px;
-        }
+#### [Picker App](https://play.google.com/store/apps/details?id=com.nartec.solitaire_picker)
+- Manage customer requests efficiently
+- Task tracking for service execution
+- NFC-powered login and interaction system
+- Real-time data synchronization
 
-        .skill-category {
-            background: rgba(255, 255, 255, 0.1);
-            padding: 25px;
-            border-radius: 15px;
-            border: 1px solid rgba(255, 255, 255, 0.2);
-            transition: all 0.3s ease;
-        }
+**Tech Stack:** Flutter, Firebase, NFC Technology, Biometric Auth
 
-        .skill-category:hover {
-            background: rgba(255, 255, 255, 0.15);
-            transform: translateY(-5px);
-        }
+---
 
-        .skill-category h3 {
-            font-size: 1.4em;
-            margin-bottom: 15px;
-            color: #ffd700;
-        }
+### 📦 [Alessa - Warehouse Management](https://play.google.com/store/apps/details?id=com.nartec.fats_system)
+**Nartec Warehouse Solution**
+- Digitized receiving, barcode mapping, and shipments
+- Inventory tracking and transfer management
+- Workflow optimization for operational efficiency
+- Real-time updates and reporting
+- **Tech Stack:** Flutter, Firebase Firestore, Barcode Scanner
 
-        .skill-tags {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-        }
+---
 
-        .skill-tag {
-            background: rgba(255, 255, 255, 0.2);
-            padding: 8px 16px;
-            border-radius: 20px;
-            font-size: 0.9em;
-            border: 1px solid rgba(255, 255, 255, 0.3);
-            transition: all 0.3s ease;
-        }
+### 🏗 [FATS System](https://play.google.com/store/apps/details?id=com.nartec.fats_system)
+**Fixed Asset Tracking System**
+- My first professional project for Nartec Solutions (Saudi Arabia)
+- Comprehensive company asset management
+- QR/Barcode scanning for quick identification
+- Currently in active use within the company
+- **Tech Stack:** Flutter, Firebase Firestore, QR Scanner
 
-        .skill-tag:hover {
-            background: rgba(255, 255, 255, 0.3);
-            transform: scale(1.1);
-        }
+---
 
-        @keyframes fadeInDown {
-            from {
-                opacity: 0;
-                transform: translateY(-30px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
+### 🍕 iFood - Food Delivery Platform
+**Final Year Project (Food Panda Clone)**
+- Three interconnected apps: Sellers, Buyers, Riders
+- Real-time order placement and tracking
+- Firebase backend integration
+- Efficient order management for all stakeholders
+- **Tech Stack:** Flutter, Firebase Real-time Database, Google Maps
 
-        @keyframes fadeInUp {
-            from {
-                opacity: 0;
-                transform: translateY(30px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
+---
 
-        @keyframes bounce {
-            0%, 100% {
-                transform: translateY(0);
-            }
-            50% {
-                transform: translateY(-10px);
-            }
-        }
+### 💪 Vision OnWay
+**Fitness & Nutrition Companion**
+- Developed for Karachi-based client
+- 7-day structured workout program with videos
+- Curated diet plans with nutritional guidance
+- Progress tracking features
+- **Tech Stack:** Flutter, Firebase, Video Integration
 
-        @media (max-width: 768px) {
-            .header h1 {
-                font-size: 2em;
-            }
+---
 
-            .projects-grid {
-                grid-template-columns: 1fr;
-            }
+### 🍽️ Food App
+**Multi-Category Food Ordering**
+- Browse various food categories
+- Latest and most delicious offerings
+- Cart management and favorites
+- Seamless order placement
+- **Tech Stack:** Flutter, Node.js, Express, Firebase
 
-            .skills-grid {
-                grid-template-columns: 1fr;
-            }
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <div class="header">
-            <h1>✨ Portfolio Showcase</h1>
-            <p>Crafting Digital Experiences with Passion & Precision</p>
-        </div>
+---
 
-        <div class="projects-grid">
-            <div class="project-card">
-                <div class="project-icon">📦</div>
-                <h3>Picker App</h3>
-                <p>Efficiently manage customer requests with this powerful tool designed for seamless workflow optimization.</p>
-                <a href="https://play.google.com/store/apps/details?id=com.nartec.solitaire_picker" class="project-link" target="_blank">
-                    <span>Download</span>
-                    <span>→</span>
-                </a>
-            </div>
+### 🔍 Just Search 8
+**Global B2B Marketplace**
+- Developed for Find Stone Age
+- Connects suppliers and buyers worldwide (like Alibaba)
+- Facilitates seamless B2B transactions
+- Platform for global manufacturers and suppliers
+- **Tech Stack:** Flutter, Node.js, Firebase, Cloud Functions
 
-            <div class="project-card">
-                <div class="project-icon">🏗</div>
-                <h3>FATS System</h3>
-                <p>Fixed Asset Tracking System for comprehensive company asset management with real-time monitoring capabilities.</p>
-                <a href="https://play.google.com/store/apps/details?id=com.nartec.fats_system" class="project-link" target="_blank">
-                    <span>View App</span>
-                    <span>→</span>
-                </a>
-            </div>
+---
 
-            <div class="project-card">
-                <div class="project-icon">🌐</div>
-                <h3>CyberNexus</h3>
-                <p>Modern React.js web application built with Vite & Tailwind for a dynamic drop-shipping business platform.</p>
-                <a href="https://www.cybernexusllc.us/" class="project-link" target="_blank">
-                    <span>Live Site</span>
-                    <span>→</span>
-                </a>
-            </div>
+### 🌐 [CyberNexus](https://www.cybernexusllc.us/)
+**Drop-Shipping Business Platform**
+- My first React project for active drop-shipping business
+- Responsive design with smooth animations
+- Fast loading with optimized performance
+- **Tech Stack:** React.js, Vite, Tailwind CSS
 
-            <div class="project-card">
-                <div class="project-icon">📖</div>
-                <h3>20,000+ Islamic Names (Urdu)</h3>
-                <p>Comprehensive collection of Islamic names with detailed meanings in English & Urdu for parents and enthusiasts.</p>
-                <a href="https://play.google.com/store/apps/details?id=com.namesapp.islamic_names_dictionary" class="project-link" target="_blank">
-                    <span>Download</span>
-                    <span>→</span>
-                </a>
-            </div>
+---
 
-            <div class="project-card">
-                <div class="project-icon">📖</div>
-                <h3>Arabic Names Collection</h3>
-                <p>Extensive database of 20,000+ boys and girls names with meanings tailored for Arabic-speaking communities.</p>
-                <a href="https://play.google.com/store/apps/details?id=com.sairatec.arabic_names" class="project-link" target="_blank">
-                    <span>Download</span>
-                    <span>→</span>
-                </a>
-            </div>
+### 📖 [20,000+ Islamic Names (Urdu)](https://play.google.com/store/apps/details?id=com.namesapp.islamic_names_dictionary)
+**Comprehensive Names Dictionary**
+- 20,000+ Islamic names with meanings
+- Bilingual support (English & Urdu)
+- Trending, popular, and celebrity name sections
+- Google AdMob monetization
+- **Tech Stack:** Flutter, SQLite, Provider, AdMob
 
-            <div class="project-card">
-                <div class="project-icon">🏋</div>
-                <h3>Motions Academy</h3>
-                <p>Professional physiotherapy app featuring video-guided exercises for injury recovery and rehabilitation.</p>
-                <a href="https://apps.apple.com/us/app/motions-academy/id6630384351?platform=iphone" class="project-link" target="_blank">
-                    <span>App Store</span>
-                    <span>→</span>
-                </a>
-            </div>
+---
 
-            <div class="project-card">
-                <div class="project-icon">🍽️</div>
-                <h3>Food Ordering App</h3>
-                <p>Multi-category food ordering platform with Node.js backend and Flutter frontend for seamless dining experience.</p>
-                <a href="#" class="project-link" style="opacity: 0.7; cursor: default;">
-                    <span>In Development</span>
-                </a>
-            </div>
+### 📖 [20,000+ Boys and Girls Names (Arabic)](https://play.google.com/store/apps/details?id=com.sairatec.arabic_names)
+**Arabic Names Collection**
+- Extensive collection for Arabic-speaking communities
+- Intuitive search and favorites functions
+- Interactive user experience
+- **Tech Stack:** Flutter, SQLite, Material Design, AdMob
 
-            <div class="project-card">
-                <div class="project-icon">🔍</div>
-                <h3>Just Search 8</h3>
-                <p>Global B2B marketplace platform connecting suppliers and buyers worldwide, similar to Alibaba's ecosystem.</p>
-                <a href="#" class="project-link" style="opacity: 0.7; cursor: default;">
-                    <span>Coming Soon</span>
-                </a>
-            </div>
-        </div>
+---
 
-        <div class="skills-section">
-            <h2>🚀 Skills & Expertise</h2>
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <h3>Mobile Development</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Flutter</span>
-                        <span class="skill-tag">Dart</span>
-                        <span class="skill-tag">Firebase</span>
-                        <span class="skill-tag">BLoC</span>
-                        <span class="skill-tag">Provider</span>
-                        <span class="skill-tag">API Integration</span>
-                    </div>
-                </div>
+### 🌐 [Nartec Solutions Website](https://nartec-solutions.com/)
+**Corporate IT Solutions Platform**
+- Company website for Nartec Solutions (Saudi Arabia)
+- IT hardware and software systems showcase
+- Fast, reliable, and scalable architecture
+- **Tech Stack:** Node.js, Express
 
-                <div class="skill-category">
-                    <h3>Web Development</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">React.js</span>
-                        <span class="skill-tag">Vite</span>
-                        <span class="skill-tag">Tailwind</span>
-                        <span class="skill-tag">JavaScript</span>
-                        <span class="skill-tag">HTML/CSS</span>
-                        <span class="skill-tag">Bootstrap</span>
-                    </div>
-                </div>
+---
 
-                <div class="skill-category">
-                    <h3>Backend & Database</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Node.js</span>
-                        <span class="skill-tag">Firebase Firestore</span>
-                        <span class="skill-tag">Local Storage</span>
-                        <span class="skill-tag">RevenueCat</span>
-                    </div>
-                </div>
+### 🔥 [Fire Watch Website](https://fwatch.gstsa1.org/)
+**Fire Safety Management**
+- Complete fire safety tracking system
+- Modern, lightweight backend architecture
+- Smooth performance and flexible scalability
+- Total visibility and compliance control
+- **Tech Stack:** Node.js, Express
 
-                <div class="skill-category">
-                    <h3>Hardware Integration</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">NFC</span>
-                        <span class="skill-tag">QR Scanning</span>
-                        <span class="skill-tag">Google Maps</span>
-                        <span class="skill-tag">Camera</span>
-                        <span class="skill-tag">Bluetooth</span>
-                    </div>
-                </div>
+---
 
-                <div class="skill-category">
-                    <h3>UI/UX Design</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Figma to Flutter</span>
-                        <span class="skill-tag">Pixel-Perfect</span>
-                        <span class="skill-tag">Animations</span>
-                        <span class="skill-tag">Responsive Design</span>
-                    </div>
-                </div>
+## 💼 Technical Skills
 
-                <div class="skill-category">
-                    <h3>Tools & Collaboration</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Git</span>
-                        <span class="skill-tag">GitHub</span>
-                        <span class="skill-tag">Bitbucket</span>
-                        <span class="skill-tag">Agile</span>
-                        <span class="skill-tag">App Publishing</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</body>
-</html>
+### Mobile Development
+![Flutter](https://img.shields.io/badge/-Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/-Dart-0175C2?style=flat-square&logo=dart&logoColor=white)
+![Firebase](https://img.shields.io/badge/-Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
+
+- **Frameworks:** Flutter, Dart
+- **State Management:** BLoC, Provider, Riverpod
+- **Backend:** Firebase (Firestore, Auth, Cloud Functions, Push Notifications)
+- **Local Features:** Camera, NFC, Bluetooth, QR Code Scanning, Biometric Auth
+- **APIs:** RESTful API Integration, GraphQL
+- **Monetization:** RevenueCat (Subscription Management), AdMob
+
+### Web Development
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![TailwindCSS](https://img.shields.io/badge/-Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
+
+- **Frontend:** React.js, Vite, HTML5, CSS3, JavaScript (ES6+)
+- **Backend:** Node.js, Express.js
+- **Styling:** Tailwind CSS, Bootstrap, Material-UI
+- **Tools:** jQuery, Responsive Design
+
+### Backend & Database
+![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+
+- **Server:** Node.js, Express.js
+- **Databases:** Firebase Firestore, MongoDB, SQLite
+- **Storage:** Local Storage, Cloud Storage
+- **Real-time:** Firebase Real-time Database
+
+### Advanced Integrations
+- 🗺️ **Google Maps API** - Location services and mapping
+- 💳 **Payment Gateways** - Stripe, PayPal integration
+- 📱 **Push Notifications** - Firebase Cloud Messaging
+- 🔐 **Authentication** - OAuth, JWT, Firebase Auth, Biometric
+- 📡 **NFC Technology** - Card reading, shop tracking
+- 📊 **Barcode/QR Scanning** - Asset tracking, product identification
+
+### Tools & Version Control
+![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github)
+![VS Code](https://img.shields.io/badge/-VS_Code-007ACC?style=flat-square&logo=visual-studio-code)
+
+- **Version Control:** Git, GitHub, Bitbucket
+- **IDEs:** VS Code, Android Studio, Xcode
+- **Design:** Figma to Flutter, Pixel-Perfect UI/UX
+- **Project Management:** Agile Development, Scrum, Team Leadership
+
+### Publishing & Deployment
+- ✅ Google Play Store Publishing
+- ✅ Apple App Store Publishing
+- ✅ App Store Optimization (ASO)
+- ✅ Beta Testing & Quality Assurance
+- ✅ Web Hosting & Deployment
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=radical)
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=yourusername&theme=radical)
+
+</div>
+
+---
+
+## 🏆 Achievements
+
+- 📱 **15+ Apps** published on Google Play Store & Apple App Store
+- ⭐ **100,000+ Downloads** across all applications
+- 🌟 **4.5+ Average Rating** on app stores
+- 💼 Successfully delivered projects for **clients in UAE, KSA, Pakistan**
+- 🚀 Built **scalable applications** handling thousands of users
+- 👥 **Team Leadership** - Managed cross-functional development teams
+- 🏗️ **Enterprise Solutions** - Developed apps for construction and retail industries
+
+---
+
+## 💡 What I Bring to the Table
+
+✨ **Pixel-Perfect Design Implementation**  
+🎯 **User-Centric Development Approach**  
+⚡ **Performance Optimization Expert**  
+🔒 **Security-First Mindset**  
+📈 **Scalable Architecture Design**  
+🤝 **Strong Communication & Team Leadership**  
+⏰ **Deadline-Oriented Delivery**  
+🔧 **Hardware Integration Specialist (NFC, Biometric)**  
+🌍 **International Client Experience**
+
+---
+
+## 🌟 Specializations
+
+### Enterprise Solutions
+- Time Management Systems
+- Asset Tracking Applications
+- Warehouse Management
+- B2B Marketplaces
+
+### Consumer Applications
+- Fitness & Rehabilitation Apps
+- Food Delivery Platforms
+- Sports Fan Engagement
+- Names Dictionary Apps
+
+### E-commerce & Retail
+- Drop-shipping Platforms
+- Shopping Assistance Apps
+- Multi-category Ordering Systems
+
+### Web Platforms
+- Corporate Websites
+- Safety Management Systems
+- Scalable Backend Solutions
+
+---
+
+## 📫 Let's Connect
+
+<div align="center">
+
+[![Email](https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@example.com)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yourprofile)
+[![Portfolio](https://img.shields.io/badge/-Portfolio-000000?style=for-the-badge&logo=react&logoColor=white)](https://yourportfolio.com)
+[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/yourusername)
+
+</div>
+
+---
+
+## 💼 Open for Opportunities
+
+I'm currently open to:
+- 🚀 Exciting **freelance projects**
+- 💼 **Full-time opportunities** in mobile/web development
+- 🤝 **Collaborative projects** with innovative teams
+- 🏢 **Enterprise solution development**
+- 📚 **Mentoring** aspiring developers
+
+---
+
+<div align="center">
+
+### ⭐ If you like my work, consider giving my projects a star!
+
+**"Code is like humor. When you have to explain it, it's bad." – Cory House**
+
+</div>
+
+---
+
+## 📜 License
+
+This portfolio and its contents are © 2025. All rights reserved.
+
+---
+
+<div align="center">
+
+**Made with ❤️ by [Faysal Zaman]**
+
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=yourusername.portfolio)
+
+</div>
